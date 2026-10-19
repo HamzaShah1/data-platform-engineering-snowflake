@@ -7,7 +7,7 @@ from pathlib import Path
 PROJECT_DIR = Path("/Users/hamzashah/data-platform-engineering-snowflake")
 
 input_path = PROJECT_DIR / "datasets" / "cleaned" / "cleaned_transactions.csv"
-output_dir = PROJECT_DIR / "datasets" / "cleaned"
+output_dir = PROJECT_DIR / "datasets" / "processed"
 
 # Load the cleaned dataset
 df = pd.read_csv(input_path)
